@@ -1,7 +1,7 @@
 # Gated fusion output head (PAF) for ultra-short-term wind farm power forecasting
 
 Code for the paper *Gated fusion of direct and power-curve-based forecasts for ultra-short-term wind farm power
-forecasting: a case study on a 201 MW farm* (Zekai Ye, Linxin Xu; submitted to *Electrical Engineering*).
+forecasting: a case study on a 201 MW farm* (Zekai Ye, Linxin Xu).
 
 The PAF head (`wpf/physics.py`) is attached to a multivariate forecasting backbone. It supervises the backbone's
 wind-speed and unavailable-share forecasts, maps them to a second power forecast through a farm power curve
