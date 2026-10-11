@@ -50,5 +50,5 @@ Cited entries: 35. Cited but missing from the bib: ['gmail'].
 - zhou2022sdwpf: arXiv record links to the Sci Data paper (zhou2024sdwpf). Both are cited on purpose: the arXiv paper documents the KDD Cup 245-day subset and the abnormal-state rules.
 - plumley2025*: DataCite confirms authors (Plumley, Takeuchi), year 2025, publisher Zenodo; the records carry no version string, so "(version N)" was removed from the titles.
 - holm1979 (Scand. J. Stat. 6(2):65-70), vaswani2017attention (NeurIPS 30, pp. 5998-6008): no DOI; standard citations.
-- gbt19963: national standard, no DOI; clause wording to be checked by the author in the official text.
+- gbt19963: national standard, no DOI; clauses 6.1, 6.2.1, 6.3.3, 6.3.5 checked by the author against the official text (2026-10-11).
 - 'gmail' in the missing list is the e-mail address in 01_front_matter.md, not a citation.
