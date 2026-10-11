@@ -38,6 +38,9 @@ def arrow(ax, p, q, color="0.2", ls="-", rad=0.0):
 
 def main():
     MF.style()
+    # math text in Arial too (journal: Helvetica/Arial); default mathtext would embed DejaVu Sans
+    plt.rcParams.update({"mathtext.fontset": "custom", "mathtext.rm": "Arial", "mathtext.it": "Arial:italic",
+                         "mathtext.bf": "Arial:bold"})
     fig = plt.figure(figsize=(MF.W2, 62 * MF.MM))
     ax = fig.add_axes([0, 0, 1, 1])
     ax.set_xlim(0, 1)
@@ -55,7 +58,7 @@ def main():
     box(ax, 0.47, 0.03, 0.13, 0.085, "wind speed $\\hat{v}_h$\nunavailable share $\\hat{s}_h$", ec=GREEN)
     arrow(ax, (0.425, 0.22), (0.47, 0.297), rad=-0.2)
     arrow(ax, (0.425, 0.14), (0.47, 0.072), rad=0.2)
-    ax.text(0.535, 0.005, "auxiliary loss vs observed $v$, $s$ (Eq. 3)", ha="center", fontsize=6, color=GREEN)
+    ax.text(0.515, 0.005, "auxiliary loss vs observed $v$, $s$ (Eq. 3)", ha="center", fontsize=7, color=GREEN)
 
     # physics path with real curve inset
     box(ax, 0.64, 0.02, 0.16, 0.20, "", ec=ORANGE)
@@ -73,9 +76,9 @@ def main():
     ins.set_ylim(0, 1.0)
     ins.set_xticks([0, 10, 20])
     ins.set_yticks([0, 0.5, 1])
-    ins.tick_params(labelsize=5, length=1.5, pad=1)
-    ins.set_xlabel("$v$ (m/s)", fontsize=5, labelpad=0)
-    ins.set_ylabel("$g(v)$", fontsize=5, labelpad=0)
+    ins.tick_params(labelsize=6.5, length=1.5, pad=1)
+    ins.set_xlabel("$v$ (m/s)", fontsize=6.5, labelpad=0)
+    ins.set_ylabel("$g(v)$", fontsize=6.5, labelpad=0)
     for s in ins.spines.values():
         s.set_linewidth(0.4)
 
@@ -85,7 +88,7 @@ def main():
     arrow(ax, (0.80, 0.12), (0.835, 0.16), rad=0.15, color=ORANGE)
     box(ax, 0.925, 0.14, 0.065, 0.09, "fused\n$\\hat{y}_h$ (Eq. 2)", bold=False)
     arrow(ax, (0.91, 0.185), (0.925, 0.185))
-    ax.text(0.872, 0.255, "one weight\nper lead time", ha="center", fontsize=6, color=GREY)
+    ax.text(0.872, 0.255, "one weight\nper lead time", ha="center", fontsize=7, color=GREY)
     MF.save(fig, "figM_method")
 
 
