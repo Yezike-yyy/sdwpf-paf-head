@@ -1,0 +1,529 @@
+{
+ "farm": "kelmarsh",
+ "n_turbines_static": 6,
+ "rated_kw": 2050.0,
+ "capacity_mw": 12.3,
+ "zips": [
+  "Kelmarsh_SCADA_2021_4456.zip",
+  "Kelmarsh_SCADA_2022_4457.zip"
+ ],
+ "n_turbine_files": 12,
+ "other_members": [
+  "Status_Kelmarsh_1_2021-01-01_-_2022-01-01_228.csv",
+  "Status_Kelmarsh_2_2021-01-01_-_2022-01-01_229.csv",
+  "Status_Kelmarsh_3_2021-01-01_-_2022-01-01_230.csv",
+  "Status_Kelmarsh_4_2021-01-01_-_2022-01-01_231.csv",
+  "Status_Kelmarsh_5_2021-01-01_-_2022-01-01_232.csv",
+  "Status_Kelmarsh_6_2021-01-01_-_2022-01-01_233.csv",
+  "Status_Kelmarsh_1_2022-01-01_-_2023-01-01_228.csv",
+  "Status_Kelmarsh_2_2022-01-01_-_2023-01-01_229.csv",
+  "Status_Kelmarsh_3_2022-01-01_-_2023-01-01_230.csv",
+  "Status_Kelmarsh_4_2022-01-01_-_2023-01-01_231.csv",
+  "Status_Kelmarsh_5_2022-01-01_-_2023-01-01_232.csv",
+  "Status_Kelmarsh_6_2022-01-01_-_2023-01-01_233.csv"
+ ],
+ "turbines_in_data": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "turbines_static_not_in_data": [],
+ "duplicates": 0,
+ "stamps_off_10min_grid": 0,
+ "step_minutes": {
+  "10.0": 630714
+ },
+ "stamp_min": "2021-01-01 00:00:00",
+ "stamp_max": "2022-12-31 23:50:00",
+ "missing_pct_by_turbine": {
+  "1": {
+   "Wspd": 1.014,
+   "Wdir": 1.008,
+   "Ndir": 1.008,
+   "Patv": 1.008,
+   "Pab1": 3.285,
+   "Pab2": 3.285,
+   "Pab3": 3.285,
+   "Etmp": 3.285,
+   "Itmp": 3.285,
+   "Prtv": 1.008,
+   "Avail": 0.032,
+   "Setp": 3.285
+  },
+  "2": {
+   "Wspd": 0.561,
+   "Wdir": 0.561,
+   "Ndir": 0.561,
+   "Patv": 0.561,
+   "Pab1": 2.832,
+   "Pab2": 2.832,
+   "Pab3": 2.832,
+   "Etmp": 2.832,
+   "Itmp": 2.832,
+   "Prtv": 0.561,
+   "Avail": 0.036,
+   "Setp": 2.832
+  },
+  "3": {
+   "Wspd": 1.045,
+   "Wdir": 1.045,
+   "Ndir": 1.045,
+   "Patv": 1.045,
+   "Pab1": 3.314,
+   "Pab2": 3.314,
+   "Pab3": 3.314,
+   "Etmp": 3.314,
+   "Itmp": 3.314,
+   "Prtv": 1.045,
+   "Avail": 0.038,
+   "Setp": 3.314
+  },
+  "4": {
+   "Wspd": 0.718,
+   "Wdir": 0.718,
+   "Ndir": 0.718,
+   "Patv": 0.718,
+   "Pab1": 2.988,
+   "Pab2": 2.988,
+   "Pab3": 2.988,
+   "Etmp": 2.988,
+   "Itmp": 2.988,
+   "Prtv": 0.718,
+   "Avail": 0.036,
+   "Setp": 2.988
+  },
+  "5": {
+   "Wspd": 1.145,
+   "Wdir": 1.145,
+   "Ndir": 1.145,
+   "Patv": 1.145,
+   "Pab1": 3.416,
+   "Pab2": 3.416,
+   "Pab3": 3.416,
+   "Etmp": 3.416,
+   "Itmp": 3.416,
+   "Prtv": 1.145,
+   "Avail": 0.038,
+   "Setp": 3.416
+  },
+  "6": {
+   "Wspd": 0.764,
+   "Wdir": 0.741,
+   "Ndir": 0.741,
+   "Patv": 0.741,
+   "Pab1": 3.005,
+   "Pab2": 3.006,
+   "Pab3": 3.006,
+   "Etmp": 3.006,
+   "Itmp": 3.006,
+   "Prtv": 0.741,
+   "Avail": 0.037,
+   "Setp": 3.006
+  }
+ },
+ "ranges": {
+  "Power kW": {
+   "min": -17.793,
+   "p0.1": -10.281,
+   "p99.9": 2064.97,
+   "max": 2082.69
+  },
+  "Wind speed m/s": {
+   "min": 0.0,
+   "p0.1": 0.464,
+   "p99.9": 17.193,
+   "max": 24.154
+  },
+  "max blade pitch deg": {
+   "min": -169.75,
+   "p0.1": 0.0,
+   "p99.9": 105.12,
+   "max": 211.723
+  },
+  "Nacelle ambient temp C": {
+   "min": -4.8,
+   "p0.1": -2.8,
+   "p99.9": 33.542,
+   "max": 39.328
+  },
+  "Nacelle temp C": {
+   "min": -0.6,
+   "p0.1": 1.442,
+   "p99.9": 38.9,
+   "max": 42.705
+  },
+  "Reactive power kvar": {
+   "min": -747.245,
+   "p0.1": -646.171,
+   "p99.9": 0.935,
+   "max": 5.049
+  },
+  "Wind dir - nacelle pos deg": {
+   "min": -179.974,
+   "p0.1": -165.13,
+   "p99.9": 165.995,
+   "max": 179.994
+  },
+  "Setpoint kW": {
+   "min": 205.0,
+   "p0.1": 412.0,
+   "p99.9": 2060.0,
+   "max": 2060.0
+  },
+  "Time-based avail.": {
+   "min": 0.0,
+   "p0.1": 0.0,
+   "p99.9": 1.0,
+   "max": 1.0
+  }
+ },
+ "power_negative_pct": 15.409849061390158,
+ "power_over_102pct_rated_pct": 0.0,
+ "wdir_minus_ndir_abs_median": 5.5216000000000065,
+ "pitch_out_of_range": {
+  "n_records": 1041,
+  "max_over_100": 1014,
+  "min_below_minus10": 27,
+  "by_turbine": {
+   "1": 16,
+   "2": 6,
+   "5": 6,
+   "6": 1013
+  },
+  "power_median_kw": -0.824258,
+  "share_with_power_le_0": 1.0
+ },
+ "feather_mode_by_turbine_all_data": {
+  "1": 90,
+  "2": 92,
+  "3": 90,
+  "4": 91,
+  "5": 92,
+  "6": 92
+ },
+ "setpoint_median_by_power": {
+  "0-500 kW": 1091.55,
+  "500-1000 kW": 1537.84,
+  "1000-1500 kW": 1961.0949999999998,
+  "1500-1906 kW": 2060.0,
+  "1906-2255 kW": 2060.0
+ },
+ "threshold_stats_train": {
+  "n_records": 422820,
+  "feather_mode_deg": 92,
+  "feather_mode_count": 4589,
+  "n_stopped_with_wind_feathered": 12665,
+  "producing_pitch_pct": {
+   "p50": 0.0,
+   "p99": 11.70575,
+   "p99.9": 34.851900000000136,
+   "p99.99": 61.252169999997946
+  },
+  "pitch_hist_5deg": {
+   "producing": {
+    "0..5": 281284,
+    "5..10": 15371,
+    "10..15": 4188,
+    "15..20": 677,
+    "20..25": 114,
+    "25..30": 65,
+    "30..35": 50,
+    "35..40": 47,
+    "40..45": 42,
+    "45..50": 46,
+    "50..55": 95,
+    "55..60": 35,
+    "60..65": 18,
+    "65..70": 8,
+    "70..75": 6,
+    "75..80": 3,
+    "80..85": 2
+   },
+   "stopped_with_wind": {
+    "-170..-165": 1,
+    "65..70": 2,
+    "70..75": 5,
+    "75..80": 14,
+    "80..85": 25,
+    "85..90": 1791,
+    "90..95": 10234,
+    "105..110": 594
+   }
+  },
+  "producing_share_by_wind_bin": [
+   {
+    "bin": "0.0-0.5",
+    "n": 443,
+    "share_producing": 0.0
+   },
+   {
+    "bin": "0.5-1.0",
+    "n": 2813,
+    "share_producing": 0.0
+   },
+   {
+    "bin": "1.0-1.5",
+    "n": 5348,
+    "share_producing": 0.0011219147344801795
+   },
+   {
+    "bin": "1.5-2.0",
+    "n": 9066,
+    "share_producing": 0.01114052503860578
+   },
+   {
+    "bin": "2.0-2.5",
+    "n": 16366,
+    "share_producing": 0.12275449101796407
+   },
+   {
+    "bin": "2.5-3.0",
+    "n": 22549,
+    "share_producing": 0.5179830591157035
+   },
+   {
+    "bin": "3.0-3.5",
+    "n": 23268,
+    "share_producing": 0.9469657899260787
+   },
+   {
+    "bin": "3.5-4.0",
+    "n": 24933,
+    "share_producing": 0.998235270525007
+   },
+   {
+    "bin": "4.0-4.5",
+    "n": 27660,
+    "share_producing": 0.999710773680405
+   },
+   {
+    "bin": "4.5-5.0",
+    "n": 30075,
+    "share_producing": 0.9998669991687448
+   },
+   {
+    "bin": "5.0-5.5",
+    "n": 30271,
+    "share_producing": 0.9999669650820918
+   },
+   {
+    "bin": "5.5-6.0",
+    "n": 29427,
+    "share_producing": 1.0
+   }
+  ],
+  "first_bin_producing_50_ms": 2.5,
+  "first_bin_producing_95_ms": 3.5,
+  "proposed_rule": {
+   "wspd": 3.5,
+   "pitch": 91.0
+  }
+ },
+ "candidate_rules_train": [
+  {
+   "wspd": 2.5,
+   "pitch": 89.0,
+   "unav_share_pct": 7.139208173690932,
+   "agree_with_greenbyte_pct": 99.96155324875048,
+   "rule_unav_but_gb_available_pct": 0.012174804562347815,
+   "rule_avail_but_gb_unavailable_pct": 0.026271946687171602
+  },
+  {
+   "wspd": 2.5,
+   "pitch": 91.0,
+   "unav_share_pct": 7.139208173690932,
+   "agree_with_greenbyte_pct": 99.96155324875048,
+   "rule_unav_but_gb_available_pct": 0.012174804562347815,
+   "rule_avail_but_gb_unavailable_pct": 0.026271946687171602
+  },
+  {
+   "wspd": 3.5,
+   "pitch": 89.0,
+   "unav_share_pct": 3.7696892294593445,
+   "agree_with_greenbyte_pct": 99.96155324875048,
+   "rule_unav_but_gb_available_pct": 0.012174804562347815,
+   "rule_avail_but_gb_unavailable_pct": 0.026271946687171602
+  },
+  {
+   "wspd": 3.5,
+   "pitch": 91.0,
+   "unav_share_pct": 3.7696892294593445,
+   "agree_with_greenbyte_pct": 99.96155324875048,
+   "rule_unav_but_gb_available_pct": 0.012174804562347815,
+   "rule_avail_but_gb_unavailable_pct": 0.026271946687171602
+  }
+ ],
+ "n_bins": 70080,
+ "share_bins_half_reporting_pct": 99.46204337899543,
+ "share_bins_all_reporting_pct": 97.54138127853881,
+ "gaps_ge_1h": 5,
+ "longest_gaps": [
+  [
+   "2021-08-09 08:15:00",
+   "2021-08-12 11:15:00",
+   301
+  ],
+  [
+   "2021-02-02 09:15:00",
+   "2021-02-02 15:30:00",
+   26
+  ],
+  [
+   "2022-06-07 10:00:00",
+   "2022-06-07 15:00:00",
+   21
+  ],
+  [
+   "2022-09-01 07:45:00",
+   "2022-09-01 12:00:00",
+   18
+  ],
+  [
+   "2021-01-03 22:30:00",
+   "2021-01-03 23:15:00",
+   4
+  ]
+ ],
+ "build_preview": {
+  "thresholds": {
+   "wspd": 3.5,
+   "pitch": 91.0
+  },
+  "n_bad_bins": 3291,
+  "clusters": {
+   "0": [
+    2
+   ],
+   "1": [
+    1
+   ],
+   "2": [
+    3
+   ],
+   "3": [
+    4
+   ],
+   "4": [
+    5
+   ],
+   "5": [
+    6
+   ]
+  },
+  "n_bins_dropped_low_report": 0,
+  "n_bins_missing_by_column": {
+   "Etmp": 1584,
+   "Itmp": 1584,
+   "Pitch": 1583,
+   "Unav": 1583,
+   "P_c0": 15,
+   "P_c1": 330,
+   "P_c2": 350,
+   "P_c3": 123,
+   "P_c4": 419,
+   "P_c5": 139,
+   "Ws_c0": 15,
+   "Ws_c1": 332,
+   "Ws_c2": 350,
+   "Ws_c3": 123,
+   "Ws_c4": 419,
+   "Ws_c5": 155
+  },
+  "gaps_ge_1h": 34,
+  "longest_gaps": [
+   [
+    "2021-06-16 08:30:00",
+    "2021-07-01 10:15:00",
+    1448
+   ],
+   [
+    "2021-11-11 09:45:00",
+    "2021-11-18 13:30:00",
+    688
+   ],
+   [
+    "2021-08-09 08:15:00",
+    "2021-08-12 11:15:00",
+    301
+   ],
+   [
+    "2022-09-08 08:15:00",
+    "2022-09-10 08:45:00",
+    195
+   ],
+   [
+    "2022-03-10 10:15:00",
+    "2022-03-11 11:30:00",
+    102
+   ]
+  ],
+  "longest_gap_causes": [
+   {
+    "start": "2021-06-16 08:30:00",
+    "end": "2021-07-01 10:15:00",
+    "bins": 1448,
+    "low_report_pct": 0.1,
+    "columns_missing_in_half_the_bins": [
+     "Etmp",
+     "Itmp",
+     "Pitch",
+     "Unav"
+    ]
+   },
+   {
+    "start": "2021-11-11 09:45:00",
+    "end": "2021-11-18 13:30:00",
+    "bins": 688,
+    "low_report_pct": 0.0,
+    "columns_missing_in_half_the_bins": [
+     "P_c4",
+     "Ws_c4"
+    ]
+   },
+   {
+    "start": "2021-08-09 08:15:00",
+    "end": "2021-08-12 11:15:00",
+    "bins": 301,
+    "low_report_pct": 100.0,
+    "columns_missing_in_half_the_bins": []
+   },
+   {
+    "start": "2022-09-08 08:15:00",
+    "end": "2022-09-10 08:45:00",
+    "bins": 195,
+    "low_report_pct": 0.0,
+    "columns_missing_in_half_the_bins": [
+     "P_c1",
+     "Ws_c1"
+    ]
+   },
+   {
+    "start": "2022-03-10 10:15:00",
+    "end": "2022-03-11 11:30:00",
+    "bins": 102,
+    "low_report_pct": 0.0,
+    "columns_missing_in_half_the_bins": [
+     "P_c3",
+     "Ws_c3"
+    ]
+   }
+  ]
+ },
+ "split_bounds": {
+  "train": [
+   "2021-01-01 00:00:00",
+   "2022-05-26 23:45:00"
+  ],
+  "val": [
+   "2022-05-27 00:00:00",
+   "2022-08-07 23:45:00"
+  ],
+  "test": [
+   "2022-08-08 00:00:00",
+   "2022-12-31 23:45:00"
+  ]
+ }
+}

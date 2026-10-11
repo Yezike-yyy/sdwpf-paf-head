@@ -1,0 +1,446 @@
+{
+ "bai2018tcn": {
+  "title": "An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling",
+  "authors": [
+   "Shaojie Bai",
+   "J. Zico Kolter",
+   "Vladlen Koltun"
+  ],
+  "year": 2018,
+  "journal_ref": null,
+  "published_doi": null
+ },
+ "bates1969combination": {
+  "title": "The Combination of Forecasts",
+  "container": "Journal of the Operational Research Society",
+  "authors": [
+   "Bates, J. M.",
+   "Granger, C. W. J."
+  ],
+  "year": 1969,
+  "volume": "20",
+  "issue": "4",
+  "pages": "451-468"
+ },
+ "caruana1997multitask": {
+  "title": "Multitask Learning",
+  "container": "Machine Learning",
+  "authors": [
+   "Caruana, Rich"
+  ],
+  "year": 1997,
+  "volume": "28",
+  "issue": "1",
+  "pages": "41-75"
+ },
+ "cho2014gru": {
+  "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+  "container": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+  "authors": [
+   "Cho, Kyunghyun",
+   "van Merrienboer, Bart",
+   "Gulcehre, Caglar",
+   "Bahdanau, Dzmitry",
+   "Bougares, Fethi",
+   "Schwenk, Holger",
+   "Bengio, Yoshua"
+  ],
+  "year": 2014,
+  "volume": null,
+  "issue": null,
+  "pages": "1724-1734"
+ },
+ "deleeuw2009isotone": {
+  "title": "Isotone Optimization in\n                    <i>R</i>\n                    : Pool-Adjacent-Violators Algorithm (PAVA) and Active Set Methods",
+  "container": "Journal of Statistical Software",
+  "authors": [
+   "Leeuw, Jan de",
+   "Hornik, Kurt",
+   "Mair, Patrick"
+  ],
+  "year": 2009,
+  "volume": "32",
+  "issue": "5",
+  "pages": null
+ },
+ "dhaka2025hybrid": {
+  "title": "Hybrid attention-based deep learning model using feature engineering approaches for wind power forecasting",
+  "container": "Electrical Engineering",
+  "authors": [
+   "Dhaka, Poonam",
+   "Sreejeth, Mini",
+   "Tripathi, M. M."
+  ],
+  "year": 2025,
+  "volume": "107",
+  "issue": "12",
+  "pages": "15343-15357"
+ },
+ "diebold1995comparing": {
+  "title": "Comparing Predictive Accuracy",
+  "container": "Journal of Business &amp; Economic Statistics",
+  "authors": [
+   "Diebold, Francis X.",
+   "Mariano, Roberto S."
+  ],
+  "year": 1995,
+  "volume": "13",
+  "issue": "3",
+  "pages": "253-263"
+ },
+ "hochreiter1997lstm": {
+  "title": "Long Short-Term Memory",
+  "container": "Neural Computation",
+  "authors": [
+   "Hochreiter, Sepp",
+   "Schmidhuber, Jürgen"
+  ],
+  "year": 1997,
+  "volume": "9",
+  "issue": "8",
+  "pages": "1735-1780"
+ },
+ "ibragimov2010tstat": {
+  "title": "<i>t</i>\n                    -Statistic Based Correlation and Heterogeneity Robust Inference",
+  "container": "Journal of Business &amp; Economic Statistics",
+  "authors": [
+   "Ibragimov, Rustam",
+   "Müller, Ulrich K."
+  ],
+  "year": 2010,
+  "volume": "28",
+  "issue": "4",
+  "pages": "453-468"
+ },
+ "kingma2014adam": {
+  "title": "Adam: A Method for Stochastic Optimization",
+  "authors": [
+   "Diederik P. Kingma",
+   "Jimmy Ba"
+  ],
+  "year": 2014,
+  "journal_ref": null,
+  "published_doi": null
+ },
+ "kunsch1989bootstrap": {
+  "title": "The Jackknife and the Bootstrap for General Stationary Observations",
+  "container": "The Annals of Statistics",
+  "authors": [
+   "Kunsch, Hans R."
+  ],
+  "year": 1989,
+  "volume": "17",
+  "issue": "3",
+  "pages": null
+ },
+ "liu2024itransformer": {
+  "title": "iTransformer: Inverted Transformers Are Effective for Time Series Forecasting",
+  "authors": [
+   "Yong Liu",
+   "Tengge Hu",
+   "Haoran Zhang",
+   "Haixu Wu",
+   "Shiyu Wang",
+   "Lintao Ma",
+   "Mingsheng Long"
+  ],
+  "year": 2023,
+  "journal_ref": null,
+  "published_doi": null
+ },
+ "liu2026gattcn": {
+  "title": "A Spatio-Temporal Dependency Modeling and Key Node Radiation-Based Method for Ultra-Short-Term Wind Farm Power Prediction Using GAT-TCN",
+  "container": "Energies",
+  "authors": [
+   "Liu, Shujun",
+   "Zhou, Tao",
+   "Du, Xiaoze",
+   "Wu, Jiangbo",
+   "He, Yiting"
+  ],
+  "year": 2026,
+  "volume": "19",
+  "issue": "7",
+  "pages": "1710"
+ },
+ "liu2026survey": {
+  "title": "Wind power forecasting with deep representation: A survey",
+  "container": "Applied Energy",
+  "authors": [
+   "Liu, Decheng",
+   "Yan, Yunfei",
+   "Chen, Shuai",
+   "Bo, Wang",
+   "Li, Xinghua",
+   "Zhang, Haibin"
+  ],
+  "year": 2026,
+  "volume": "421",
+  "issue": null,
+  "pages": "128106"
+ },
+ "mao2026dbfp": {
+  "title": "DBFP-Net: Dynamic Graph and Bidirectional Temporal-Frequency Fusion Network for Wind Power Prediction with Physics Constraints",
+  "container": "Information",
+  "authors": [
+   "Mao, Yulu",
+   "Shi, Yuan",
+   "Wang, Zhiwei",
+   "Xia, Min",
+   "Zhou, Wangping"
+  ],
+  "year": 2026,
+  "volume": "17",
+  "issue": "4",
+  "pages": "338"
+ },
+ "nie2023patchtst": {
+  "title": "A Time Series is Worth 64 Words: Long-term Forecasting with Transformers",
+  "authors": [
+   "Yuqi Nie",
+   "Nam H. Nguyen",
+   "Phanwadee Sinthong",
+   "Jayant Kalagnanam"
+  ],
+  "year": 2022,
+  "journal_ref": null,
+  "published_doi": null
+ },
+ "plumley2025kelmarsh": {
+  "title": "Kelmarsh wind farm data",
+  "authors": [
+   "Plumley, Charlie",
+   "Takeuchi, Roberta"
+  ],
+  "year": 2025,
+  "version": null,
+  "publisher": "Zenodo"
+ },
+ "plumley2025penmanshiel": {
+  "title": "Penmanshiel wind farm data",
+  "authors": [
+   "Plumley, Charlie",
+   "Takeuchi, Roberta"
+  ],
+  "year": 2025,
+  "version": null,
+  "publisher": "Zenodo"
+ },
+ "shringi2025wavelet": {
+  "title": "Multi-step ahead wind power forecasting based on multi-feature wavelet decomposition and convolution-gated recurrent unit model",
+  "container": "Electrical Engineering",
+  "authors": [
+   "Shringi, Shubham",
+   "Saini, Lalit Mohan",
+   "Aggarwal, Sanjeev Kumar"
+  ],
+  "year": 2025,
+  "volume": "107",
+  "issue": "7",
+  "pages": "9445-9466"
+ },
+ "su2026disturbance": {
+  "title": "Disturbance-aware spatiotemporal feature fusion for wind power forecasting",
+  "container": "Electrical Engineering",
+  "authors": [
+   "Su, Xunwen",
+   "Wei, Hangyuan",
+   "Geng, Jiahao",
+   "Han, Yu",
+   "Wu, Zijing",
+   "Zhang, Siqi"
+  ],
+  "year": 2026,
+  "volume": "108",
+  "issue": "5",
+  "pages": "283"
+ },
+ "tawn2022review": {
+  "title": "A review of very short-term wind and solar power forecasting",
+  "container": "Renewable and Sustainable Energy Reviews",
+  "authors": [
+   "Tawn, R.",
+   "Browell, J."
+  ],
+  "year": 2022,
+  "volume": "153",
+  "issue": null,
+  "pages": "111758"
+ },
+ "wang2024timemixer": {
+  "title": "TimeMixer: Decomposable Multiscale Mixing for Time Series Forecasting",
+  "authors": [
+   "Shiyu Wang",
+   "Haixu Wu",
+   "Xiaoming Shi",
+   "Tengge Hu",
+   "Huakun Luo",
+   "Lintao Ma",
+   "James Y. Zhang",
+   "Jun Zhou"
+  ],
+  "year": 2024,
+  "journal_ref": null,
+  "published_doi": null
+ },
+ "wang2026spatialfeatures": {
+  "title": "An Ultra-Short-Term Wind Farm Power Forecasting Method Incorporating Spatial Features for Sustainable Energy Integration",
+  "container": "Sustainability",
+  "authors": [
+   "Wang, Yanxia",
+   "Yu, Weilong",
+   "Ma, Minghan",
+   "Kang, Yongqiang",
+   "Yun, Yunyun",
+   "Ma, Xiping",
+   "Li, Shuaibing"
+  ],
+  "year": 2026,
+  "volume": "18",
+  "issue": "14",
+  "pages": "7387"
+ },
+ "wang2026tslib": {
+  "title": "Deep Time Series Models: A Comprehensive Survey and Benchmark",
+  "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "authors": [
+   "Wang, Yuxuan",
+   "Wu, Haixu",
+   "Dong, Jiaxiang",
+   "Liu, Yong",
+   "Wang, Chen",
+   "Long, Mingsheng",
+   "Wang, Jianmin"
+  ],
+  "year": 2026,
+  "volume": "48",
+  "issue": "10",
+  "pages": "11642-11662"
+ },
+ "xu2026uniwind": {
+  "title": "UniWind: Toward Unified Day-Ahead Wind Power Forecasting via Physics-Informed State Routing",
+  "authors": [
+   "Ronghui Xu",
+   "Tongxin Wu",
+   "Guozhen Zhang",
+   "Yihan Li",
+   "Chenjuan Guo",
+   "Bin Yang",
+   "Yong Li"
+  ],
+  "year": 2026,
+  "journal_ref": null,
+  "published_doi": null
+ },
+ "yakoub2023direct": {
+  "title": "Direct and indirect short-term aggregated turbine- and farm-level wind power forecasts integrating several NWP sources",
+  "container": "Heliyon",
+  "authors": [
+   "Yakoub, Ghali",
+   "Mathew, Sathyajith",
+   "Leal, Joao"
+  ],
+  "year": 2023,
+  "volume": "9",
+  "issue": "11",
+  "pages": "e21479"
+ },
+ "zeng2023dlinear": {
+  "title": "Are Transformers Effective for Time Series Forecasting?",
+  "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "authors": [
+   "Zeng, Ailing",
+   "Chen, Muxi",
+   "Zhang, Lei",
+   "Xu, Qiang"
+  ],
+  "year": 2023,
+  "volume": "37",
+  "issue": "9",
+  "pages": "11121-11128"
+ },
+ "zhang2023hsttn": {
+  "title": "Long-term Wind Power Forecasting with Hierarchical Spatial-Temporal Transformer",
+  "container": "Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence",
+  "authors": [
+   "Zhang, Yang",
+   "Liu, Lingbo",
+   "Xiong, Xinyu",
+   "Li, Guanbin",
+   "Wang, Guoli",
+   "Lin, Liang"
+  ],
+  "year": 2023,
+  "volume": null,
+  "issue": null,
+  "pages": "6308-6316"
+ },
+ "zheng2025physicsguided": {
+  "title": "Wind Power Prediction Method Based on Physics-Guided Fusion and Distribution Constraints",
+  "container": "Energies",
+  "authors": [
+   "Zheng, Wenbin",
+   "Yin, Jiaojiao",
+   "Wang, Zhiwei",
+   "Sun, Huijie",
+   "Bai, Letian"
+  ],
+  "year": 2025,
+  "volume": "18",
+  "issue": "24",
+  "pages": "6479"
+ },
+ "zhou2022sdwpf": {
+  "title": "SDWPF: A Dataset for Spatial Dynamic Wind Power Forecasting Challenge at KDD Cup 2022",
+  "authors": [
+   "Jingbo Zhou",
+   "Xinjiang Lu",
+   "Yixiong Xiao",
+   "Jiantao Su",
+   "Junfu Lyu",
+   "Yanjun Ma",
+   "Dejing Dou"
+  ],
+  "year": 2022,
+  "journal_ref": "Zhou, J., Lu, X., Xiao, Y. et al. SDWPF: A Dataset for Spatial Dynamic Wind Power Forecasting over a Large Turbine Array. Sci Data 11, 649 (2024)",
+  "published_doi": "10.1038/s41597-024-03427-5"
+ },
+ "zhou2024sdwpf": {
+  "title": "SDWPF: A Dataset for Spatial Dynamic Wind Power Forecasting over a Large Turbine Array",
+  "container": "Scientific Data",
+  "authors": [
+   "Zhou, Jingbo",
+   "Lu, Xinjiang",
+   "Xiao, Yixiong",
+   "Tang, Jian",
+   "Su, Jiantao",
+   "Li, Yu",
+   "Liu, Ji",
+   "Lyu, Junfu",
+   "Ma, Yanjun",
+   "Dou, Dejing"
+  ],
+  "year": 2024,
+  "volume": "11",
+  "issue": "1",
+  "pages": "649"
+ },
+ "zhu2026wpbench": {
+  "title": "WPBench: A Comprehensive Benchmark for Wind Power Forecasting",
+  "authors": [
+   "Yuhan Zhu",
+   "Jilin Hu",
+   "Xinying Cai",
+   "Yingshan Li",
+   "Li Ma",
+   "Xiangfei Qiu Linsen Li",
+   "Kai Zhang",
+   "Yao Fu",
+   "Weihao Jiang",
+   "Bin Yang"
+  ],
+  "year": 2026,
+  "journal_ref": null,
+  "published_doi": null
+ }
+}
